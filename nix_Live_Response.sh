@@ -1,10 +1,8 @@
 #!/bin/bash
 
-
-
 #INITIAL HOUSEKEEPING 
 ScriptStart=$(date +%s)
-lrcbuildname="Live Response Collection (Cedarpelta Build - 20190905)"
+lrcbuildname="Live Response Collection "
 scriptname=`basename "$0"`
 directorywherescriptrunsfrom=$(pwd) #Getting directory from where the script is running
 modulepath="$directorywherescriptrunsfrom/Modules/"
